@@ -621,6 +621,7 @@ let datasets = [
         data: programNames.map((program)=>programResults[program][status])
     };
 });
+console.log(datasets);
 new (0, _autoDefault.default)(document.getElementById("programmes"), {
     type: "bar",
     data: {

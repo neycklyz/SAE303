@@ -45,7 +45,7 @@ let datasets = ['countSat', 'countUnknown', 'countUnsat'].map((status, index) =>
         data: programNames.map(program => programResults[program][status]),
     };
 });
-
+console.log(datasets)
 new Chart(
     document.getElementById('programmes'),
     {
