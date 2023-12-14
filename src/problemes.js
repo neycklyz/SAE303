@@ -49,7 +49,7 @@ let colors = [
     'rgb(210, 89, 53)'
 ];
 
-// Définir les labels et les valeurs à partir de programResults
+// Définir les labels et les valeurs
 let labels = ['Nombre de problèmes résolus', 'Nombre de problèmes sans solution', 'Nombre de problèmes irréalisables'];
 let datasets = programNames.map((program, index) => ({
     label: program,
@@ -77,7 +77,7 @@ new Chart(
                 },
                 legend: {
                     labels: {
-                        color: 'white' // Couleur du texte de la légende
+                        color: 'white'
                     }
                 }
             },
@@ -85,17 +85,17 @@ new Chart(
                 y: {
                     beginAtZero: true,
                     ticks: {
-                        color: 'white' // Couleur du texte de l'axe y
+                        color: 'white'
                     },
                     grid: {
                         color: 'rgba(0,0,0,0.3)'
                     }
                 },
                 x: {
-                    offset: true, // Activer l'espacement entre les groupes de barres
-                    stacked: false, // Barres groupées plutôt que empilées
+                    offset: true,
+                    stacked: false,
                     ticks: {
-                        color: 'white' // Couleur du texte de l'axe x
+                        color: 'white'
                     },
                     grid: {
                         color: 'rgba(0,0,0,0.3)'

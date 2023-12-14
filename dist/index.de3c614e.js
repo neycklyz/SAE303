@@ -585,14 +585,13 @@ const programNames = [
     ...new Set(db.map((d)=>d.name))
 ];
 console.log(programNames);
-// Récupérer les datas d'un programme particulier
+// Récupérer les datas d'un programme en particulier
 function dataOf(program) {
     let programData = db.filter((d)=>d.name === program);
     return programData;
 }
 // Récupérer les résultats
 let programResults = {};
-// Parcourir chaque programme pour compter les occurrences de chaque statut
 for (const program of programNames){
     programResults[program] = {
         countSat: 0,
@@ -611,7 +610,6 @@ let l = [
     "Probl\xe8mes sans solution",
     "Probl\xe8mes sans solution"
 ];
-// Inverser les labels et les valeurs à partir de programResults
 let labels = programNames;
 let datasets = [
     "countSat",
@@ -634,7 +632,7 @@ new (0, _autoDefault.default)(document.getElementById("programmes"), {
             y: {
                 beginAtZero: true,
                 ticks: {
-                    color: "white" // Couleur du texte de l'axe y
+                    color: "white"
                 },
                 grid: {
                     color: "rgba(0,0,0,0.5)"
@@ -642,7 +640,7 @@ new (0, _autoDefault.default)(document.getElementById("programmes"), {
             },
             x: {
                 ticks: {
-                    color: "white" // Couleur du texte de l'axe x
+                    color: "white"
                 },
                 grid: {
                     color: "rgba(0,0,0,0.5)"
@@ -657,7 +655,7 @@ new (0, _autoDefault.default)(document.getElementById("programmes"), {
             },
             legend: {
                 labels: {
-                    color: "white" // Couleur du texte de la légende
+                    color: "white"
                 }
             }
         }

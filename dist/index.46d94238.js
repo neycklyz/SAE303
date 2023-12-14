@@ -617,7 +617,7 @@ let colors = [
     "rgb(174, 123, 56)",
     "rgb(210, 89, 53)"
 ];
-// Définir les labels et les valeurs à partir de programResults
+// Définir les labels et les valeurs
 let labels = [
     "Nombre de probl\xe8mes r\xe9solus",
     "Nombre de probl\xe8mes sans solution",
@@ -648,7 +648,7 @@ new (0, _autoDefault.default)(document.getElementById("problemes"), {
             },
             legend: {
                 labels: {
-                    color: "white" // Couleur du texte de la légende
+                    color: "white"
                 }
             }
         },
@@ -656,7 +656,7 @@ new (0, _autoDefault.default)(document.getElementById("problemes"), {
             y: {
                 beginAtZero: true,
                 ticks: {
-                    color: "white" // Couleur du texte de l'axe y
+                    color: "white"
                 },
                 grid: {
                     color: "rgba(0,0,0,0.3)"
@@ -666,7 +666,7 @@ new (0, _autoDefault.default)(document.getElementById("problemes"), {
                 offset: true,
                 stacked: false,
                 ticks: {
-                    color: "white" // Couleur du texte de l'axe x
+                    color: "white"
                 },
                 grid: {
                     color: "rgba(0,0,0,0.3)"

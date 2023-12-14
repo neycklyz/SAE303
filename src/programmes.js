@@ -7,7 +7,7 @@ let db = data[2].data;
 const programNames = [...new Set(db.map(d => d.name))];
 console.log(programNames);
 
-// Récupérer les datas d'un programme particulier
+// Récupérer les datas d'un programme en particulier
 function dataOf(program) {
     let programData = db.filter(d => d.name === program);
     return programData;
@@ -16,7 +16,6 @@ function dataOf(program) {
 // Récupérer les résultats
 let programResults = {};
 
-// Parcourir chaque programme pour compter les occurrences de chaque statut
 for (const program of programNames) {
     programResults[program] = {
         countSat: 0,
@@ -39,7 +38,6 @@ console.log(programResults);
 
 let l = ["Problèmes résolus", "Problèmes sans solution", "Problèmes sans solution"]
 
-// Inverser les labels et les valeurs à partir de programResults
 let labels = programNames;
 let datasets = ['countSat', 'countUnknown', 'countUnsat'].map((status, index) => {
     return {
@@ -61,7 +59,7 @@ new Chart(
                 y: {
                     beginAtZero: true,
                     ticks: {
-                        color: 'white' // Couleur du texte de l'axe y
+                        color: 'white'
                     },
                     grid: {
                         color: 'rgba(0,0,0,0.5)',
@@ -69,7 +67,7 @@ new Chart(
                 },
                 x: {
                     ticks: {
-                        color: 'white' // Couleur du texte de l'axe x
+                        color: 'white'
                     },
                     grid: {
                         color: 'rgba(0,0,0,0.5)',
@@ -84,7 +82,7 @@ new Chart(
                 },
                 legend: {
                     labels: {
-                        color: 'white' // Couleur du texte de la légende
+                        color: 'white'
                     }
                 }
             }
