@@ -6,9 +6,9 @@ Courte description ou slogan du projet.
 
 ### Table des matières
 
-- [Problèmes rencontrés](#aperçu)
-- [Solutions apportées](#fonctionnalités)
-- [Explications](#captures-décran)
+- [Problèmes rencontrés](#problemes)
+- [Solutions apportées](#solutions)
+- [Explications](#explications)
 
 ### Problèmes rencontrés
 
@@ -19,5 +19,6 @@ Fournissez une brève description de ce que fait votre projet. Ajoutez des liens
 - Listez les principales fonctionnalités de votre projet.
 
 ### Explications
+(#explications)
 
 Insérez des captures d'écran de votre application ou des exemples d'utilisation.
