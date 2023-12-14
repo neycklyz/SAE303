@@ -6,8 +6,8 @@ Courte description ou slogan du projet.
 
 ### Table des matières
 
-- [Problèmes rencontrés](#problemes)
-- [Solutions apportées](#solutions)
+- [Problèmes rencontrés](#problèmes-rencontrés)
+- [Solutions apportées](#solutions-apportées)
 - [Explications](#explications)
 
 ### Problèmes rencontrés
