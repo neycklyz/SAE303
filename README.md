@@ -1,8 +1,7 @@
 # SAE 303
-# Thomas Joly
-# MMI2 B2
+## Thomas Joly, MMI2 B2
 
-##Objectif
+### Objectif
 
 Mise en forme graphique d'une série de données relatives à la réalisation de différents problèmes par une liste de dix programmes.
 
