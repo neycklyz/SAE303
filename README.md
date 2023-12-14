@@ -19,6 +19,5 @@ Fournissez une brève description de ce que fait votre projet. Ajoutez des liens
 - Listez les principales fonctionnalités de votre projet.
 
 ### Explications
-(#explications)
 
 Insérez des captures d'écran de votre application ou des exemples d'utilisation.
