@@ -1,0 +1,27 @@
+@import "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&family=Roboto:wght@100;300;400;500;900&display=swap";
+* {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(#270031, #4c0054);
+  flex-direction: column;
+  display: flex;
+}
+
+button {
+  color: #000;
+}
+
+h1 {
+  padding: 3rem;
+  font-size: 5rem;
+}
+
+/*# sourceMappingURL=index.558629d4.css.map */
