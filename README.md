@@ -12,11 +12,11 @@ Courte description ou slogan du projet.
 
 ### Problèmes rencontrés
 
-Fournissez une brève description de ce que fait votre projet. Ajoutez des liens vers des démonstrations en ligne, si disponibles.
+La syntaxe bien particulière de Chart.js et ma courte expérience avec ce language m'ont régulièrement freiné dans l'avancée du projet. J'ai également manqué d'inspiration quand il s'agissait de trouver la meilleure solution possible pour mettre en forme les données du JSON de la manière la plus efficace possible.
 
 ### Solutions apportées
 
-- Listez les principales fonctionnalités de votre projet.
+La documentation de Chart.js m'aura été d'une grande aide. Les différents forums tels que stackoverflow m'auront également permis de trouver des solutions efficaces et rapides aux différents problèmes rencontrés.
 
 ### Explications
 
