@@ -15,4 +15,4 @@ La documentation de Chart.js m'aura été d'une grande aide. Les différents for
 
 ### Explications
 
-Insérez des captures d'écran de votre application ou des exemples d'utilisation.
+J'ai choisi de réaliser deux diagrammes à bâtons, le premier listant les données en fonction de chaque programme et le second en fonction du statut du résultat renvoyé.
