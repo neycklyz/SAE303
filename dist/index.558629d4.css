@@ -15,6 +15,18 @@ body {
   display: flex;
 }
 
+.container {
+  max-width: 1100px;
+  margin-inline: auto;
+}
+
+#graphs {
+  flex-direction: column;
+  gap: 8rem;
+  padding-bottom: 3rem;
+  display: flex;
+}
+
 button {
   color: #000;
 }
@@ -22,6 +34,14 @@ button {
 h1 {
   padding: 3rem;
   font-size: 5rem;
+}
+
+footer {
+  padding: 2rem;
+}
+
+footer a {
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=index.558629d4.css.map */

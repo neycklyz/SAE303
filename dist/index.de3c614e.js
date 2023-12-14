@@ -608,7 +608,7 @@ console.log(programResults);
 let l = [
     "Probl\xe8mes r\xe9solus",
     "Probl\xe8mes sans solution",
-    "Probl\xe8mes sans solution"
+    "Probl\xe8mes irr\xe9alisables"
 ];
 let labels = programNames;
 let datasets = [

@@ -36,7 +36,7 @@ for (const program of programNames) {
 
 console.log(programResults);
 
-let l = ["Problèmes résolus", "Problèmes sans solution", "Problèmes sans solution"]
+let l = ["Problèmes résolus", "Problèmes sans solution", "Problèmes irréalisables"]
 
 let labels = programNames;
 let datasets = ['countSat', 'countUnknown', 'countUnsat'].map((status, index) => {
